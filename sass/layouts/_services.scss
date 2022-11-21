@@ -1,0 +1,44 @@
+.services {
+   display: flex;
+   
+}
+
+
+.services.second {
+   flex-direction: row-reverse;
+}
+.services-wrap {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.services-text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 38px;
+   line-height: 1.16;
+   max-width: 630px;
+   margin-bottom: 45px;
+}
+
+.services-img1 {
+   margin-right: 100px;
+}
+
+.services-img2 {
+   margin-left: 100px;
+}
+
+.text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 1.38;
+
+   color: #F1F1EB;
+}
+
+
+

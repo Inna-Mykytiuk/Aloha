@@ -1,0 +1,36 @@
+.footer {
+   padding-bottom: 90px;
+}
+
+.footer-wrap {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__icon {
+   fill: #4B321D;
+   margin-top: 85px;
+}
+
+.footer-link {
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 1.7;
+   text-decoration: none;
+
+   color: #4B321D;
+   &:hover,
+   &:focus {
+      color: var(--acent-color);
+   }
+}
+
+.menu__link:hover,
+.menu__link:focus{
+   color: var(--acent-color);
+}
+
+.list-wrap {
+   display: flex;
+   gap: 178px;
+}
